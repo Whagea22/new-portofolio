@@ -51,7 +51,7 @@
 
   .mh-home .img-fluid {
     display: flex;
-    max-width: 130%; /* Membuat gambar responsif */
+    max-width: 100%; /* Membuat gambar responsif */
     max-height: 400px; /* Menetapkan maksimum tinggi gambar */
     max-width: 400px; /* Menetapkan maksimum lebar gambar */
   }
@@ -371,7 +371,7 @@
 
   .mh-home .img-fluid {
     display: flex;
-    max-width: 120%; /* Membuat gambar responsif */
+    max-width: 100%; /* Membuat gambar responsif */
     max-height: 285px; /* Menetapkan maksimum tinggi gambar */
     max-width: 285px; /* Menetapkan maksimum lebar gambar */
   }

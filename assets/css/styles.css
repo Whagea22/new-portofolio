@@ -1535,9 +1535,11 @@ li .fa {
   border-radius: 50%;
 }
 
-.mh-home .img-border .img-fluid {
-  max-width: 100%; /* Membuat gambar responsif */
-  height: auto; /* Menjaga aspek ratio gambar */
+.mh-home .img-fluid {
+  display: flex;
+    max-width: 130%; /* Membuat gambar responsif */
+    max-height: 400px; /* Menetapkan maksimum tinggi gambar */
+    max-width: 400px; /* Menetapkan maksimum lebar gambar */
 }
 
 .mh-featured-project-img img {
