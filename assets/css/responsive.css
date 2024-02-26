@@ -52,8 +52,8 @@
   .mh-home .img-fluid {
     display: flex;
     max-width: 130%; /* Membuat gambar responsif */
-    max-height: 200px; /* Menetapkan maksimum tinggi gambar */
-    max-width: 200px; /* Menetapkan maksimum lebar gambar */
+    max-height: 400px; /* Menetapkan maksimum tinggi gambar */
+    max-width: 400px; /* Menetapkan maksimum lebar gambar */
   }
 
   .section-separator {
@@ -363,8 +363,8 @@
 
   .mh-home .img-border {
     margin-top: 40px;
-    height: 385px;
-    width: 385px;
+    height: 285px;
+    width: 285px;
     border-width: 0.5px; /* Mengurangi lebar border untuk tampilan mobile */
     padding: 2px;
   }
@@ -372,8 +372,8 @@
   .mh-home .img-fluid {
     display: flex;
     max-width: 120%; /* Membuat gambar responsif */
-    max-height: 200px; /* Menetapkan maksimum tinggi gambar */
-    max-width: 200px; /* Menetapkan maksimum lebar gambar */
+    max-height: 285px; /* Menetapkan maksimum tinggi gambar */
+    max-width: 285px; /* Menetapkan maksimum lebar gambar */
   }
 
   .mh-home .mh-header-info h4 {
@@ -541,6 +541,10 @@
     padding-left: 5px;
     text-align: center;
     margin: 30px 15px;
+  }
+  .mh-about .img-fluid {
+    max-width: 100%; /* Membuat gambar responsif */
+    height: auto; /* Menjaga aspek ratio gambar */
   }
   .mh-skills .mh-professional-skill {
     padding-right: 0;

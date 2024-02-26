@@ -1558,6 +1558,11 @@ li .fa {
   padding-left: 50px;
 }
 
+.mh-about .img-fluid {
+  max-width: 100%; /* Membuat gambar responsif */
+  height: auto; /* Menjaga aspek ratio gambar */
+}
+
 .mh-about .mh-about-inner h2 {
   margin-bottom: 20px;
   margin-top: 20px;
