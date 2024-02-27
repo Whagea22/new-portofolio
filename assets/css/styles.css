@@ -1528,8 +1528,8 @@ li .fa {
 
 .mh-home .img-border {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 345px;
+  width: 345px;
   border: 15px solid rgba(0, 0, 0, 0.07);
   margin: 0 auto;
   border-radius: 50%;
@@ -1537,9 +1537,9 @@ li .fa {
 
 .mh-home .img-fluid {
   display: flex;
-    max-width: 130%; /* Membuat gambar responsif */
-    max-height: 400px; /* Menetapkan maksimum tinggi gambar */
-    max-width: 400px; /* Menetapkan maksimum lebar gambar */
+    max-width: 100%; /* Membuat gambar responsif */
+    max-height: 345px; /* Menetapkan maksimum tinggi gambar */
+    max-width: 345px; /* Menetapkan maksimum lebar gambar */
 }
 
 .mh-featured-project-img img {

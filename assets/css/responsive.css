@@ -42,18 +42,18 @@
 @media only screen and (max-width: 991px) {
 
   .mh-home .img-border {
-    margin-top: 40px;
-    height: 400px;
-    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    height: 285px;
+    width: 285px;
     border-width: 0.5px; /* Mengurangi lebar border untuk tampilan mobile */
     padding: 2px;
   }
 
   .mh-home .img-fluid {
-    display: flex;
     max-width: 100%; /* Membuat gambar responsif */
-    max-height: 400px; /* Menetapkan maksimum tinggi gambar */
-    max-width: 400px; /* Menetapkan maksimum lebar gambar */
+    max-height: 285px; /* Menetapkan maksimum tinggi gambar */
+    max-width: 285px; /* Menetapkan maksimum lebar gambar */
   }
 
   .section-separator {
@@ -362,7 +362,8 @@
 @media only screen and (max-width: 768px) {
 
   .mh-home .img-border {
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
     height: 285px;
     width: 285px;
     border-width: 0.5px; /* Mengurangi lebar border untuk tampilan mobile */
@@ -370,7 +371,6 @@
   }
 
   .mh-home .img-fluid {
-    display: flex;
     max-width: 100%; /* Membuat gambar responsif */
     max-height: 285px; /* Menetapkan maksimum tinggi gambar */
     max-width: 285px; /* Menetapkan maksimum lebar gambar */
@@ -509,7 +509,8 @@
   }
 
   .mh-home .img-border {
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
     height: 245px;
     width: 245px;
     border-width: 0.5px; /* Mengurangi lebar border untuk tampilan mobile */
@@ -517,10 +518,9 @@
   }
 
   .mh-home .img-fluid {
-    display: flex;
-    max-width: 130%; /* Membuat gambar responsif */
-    max-height: 200px; /* Menetapkan maksimum tinggi gambar */
-    max-width: 200px; /* Menetapkan maksimum lebar gambar */
+    max-width: 100%; /* Membuat gambar responsif */
+    max-height: 245px; /* Menetapkan maksimum tinggi gambar */
+    max-width: 245px; /* Menetapkan maksimum lebar gambar */
   }
 
   .mh-home .mh-header-info h2 {
@@ -645,11 +645,20 @@
 }
 
 @media only screen and (max-width: 420px) {
+
   .mh-home .img-border {
-    height: 280px;
-    width: 280px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    height: 245px;
+    width: 245px;
     border-width: 1px; /* Mengurangi lebar border untuk tampilan mobile */
-    padding: 3px;
+    padding: 2px;
+  }
+
+  .mh-home .img-fluid {
+    max-width: 100%; /* Membuat gambar responsif */
+    max-height: 245px; /* Menetapkan maksimum tinggi gambar */
+    max-width: 245px; /* Menetapkan maksimum lebar gambar */
   }
 
   .home-padding {
